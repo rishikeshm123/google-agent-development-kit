@@ -17,7 +17,6 @@ def get_current_city() -> dict:
         "current_city": "San Francisco",  # Placeholder for actual implementation
     }
 
-
 root_agent = Agent(
     name="tool_agent",
     model="gemini-2.0-flash",
